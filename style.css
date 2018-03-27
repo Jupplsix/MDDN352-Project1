@@ -26,6 +26,40 @@ img {
 	height: auto;
 }
 
+button {
+	padding: 10px 20px 30px 20px;
+	font-size: 16px;
+	margin-top: 2rem;
+	outline-style: none;
+	height: 2rem;
+	border: none;
+	border-radius: 30px;
+	background-color: #50c9ff;
+	transition: all ease 0.2s;
+}
+
+button:hover {
+	background-color: #50c9ff;
+	padding: 10px 60px 30px 20px;
+}
+
+button:active {
+	background-color: #27a1d8;
+}
+
+.bblue {
+	background-color: white;
+}
+
+.bblue:hover {
+	background-color: white;
+}
+
+.bblue:active {
+	background-color: #212121;
+	color: white;
+}
+
 h1 {
 	font-size: 3rem;
 }
@@ -117,5 +151,9 @@ p {
 	img {
 		padding-top: 2rem;
 		max-width: 70%;
+	}
+
+	.remove-on-mobile {
+		display: none;
 	}
 }
