@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+img {
+	max-height: 550px;
+}
+
+div {
+	border: blue solid 2px;
+}
+
+#badges {
+	padding-top: 2rem;
+	max-width: 250px;
+	text-align: center;
+}
+
+#badges img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+p {
+	line-height: 1.5rem;
+	padding-top: 2.5rem;
+}
+
+#landing {
+	padding: 0;
+}
+
+#landing .left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#landing p {
+	padding-top: 1.5rem;
+} 
+
+.main-container {
+	background-color: #efefef;
+	display: flex;
+	padding: 200px 0;
+}
+
+.flip {
+	flex-direction: row-reverse;
+}
+
+.blue {
+	background-color: #50c9ff;
+}
+
+.content-container {
+/*	border: blue solid 2px;*/
+}
+
+.left {
+	margin: 0 auto 0 2%;
+}
+
+.right {
+	max-width: 400px;
+	margin: 0 2% 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flip .left {
+	margin: 0 2% 0 auto;
+}
+
+.flip .right {
+	margin: 0 auto 0 2%;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#landing {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-container {
+		display: block;
+		padding: 3rem 0 8rem 0;
+	}
+
+	.flip .right, .flip .left, .content-container {
+		margin: 0 auto;
+		width: 90%;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	#badges {
+		margin: auto;
+	}
+	img {
+		padding-top: 2rem;
+		max-width: 70%;
+	}
+}
