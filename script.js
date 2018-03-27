@@ -53,7 +53,6 @@ function scrollToSection4 () {
 		});
 };
 
-window.addEventListener('resize', resizeLanding); 
 window.addEventListener('load', resizeLandingLoad);
 
 section1Button.addEventListener('click', scrollToSection1);
