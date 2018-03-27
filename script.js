@@ -1,3 +1,5 @@
+// Get Required Elements from HTML
+
 var landing = document.querySelector("#landing");
 
 var section1Button = document.querySelector("#buttonToSection1");
@@ -21,7 +23,7 @@ function scrollToSection1 () {
  	var section = document.querySelector("#section1");
 	section.scrollIntoView({
 			behavior: "smooth",
-			block: "start",
+			block: "center",
 			inline: "nearest"
 		});
 };
@@ -30,7 +32,7 @@ function scrollToSection2 () {
  	var section = document.querySelector("#section2");
 	section.scrollIntoView({
 			behavior: "smooth",
-			block: "start",
+			block: "center",
 			inline: "nearest"
 		});
 };
@@ -39,7 +41,7 @@ function scrollToSection3 () {
  	var section = document.querySelector("#section3");
 	section.scrollIntoView({
 			behavior: "smooth",
-			block: "start",
+			block: "center",
 			inline: "nearest"
 		});
 };
@@ -48,10 +50,12 @@ function scrollToSection4 () {
  	var section = document.querySelector("#section4");
 	section.scrollIntoView({
 			behavior: "smooth",
-			block: "start",
+			block: "center",
 			inline: "nearest"
 		});
 };
+
+// Required Event Listeners
 
 window.addEventListener('load', resizeLandingLoad);
 
