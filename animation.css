@@ -1,0 +1,21 @@
+.animate-up {
+	animation-name: animateBottom;
+	animation-duration: 2.5s;
+	animation-timing-function: ease;
+}
+
+@keyframes animateBottom {
+	from { opacity: 0; margin-top: 30%; }
+	to { opacity: 1; margin-top: 0; }
+}
+
+.fadeIn {
+	animation-name: animateFadeIn;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+
+@keyframes animateFadeIn {
+	from { opacity: 0.0; }
+	to { opacity: 1.0; }
+}
