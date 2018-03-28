@@ -82,22 +82,6 @@ button:active {
 	color: white;
 }
 
-/* Landing Section */
-
-#landing {
-	padding: 0;
-}
-
-#landing .left {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#landing p {
-	padding-top: 1.5rem;
-} 
-
 /* Main Content Containers and Modifiers */
 
 .main-container {
