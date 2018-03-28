@@ -1,40 +1,19 @@
-/* Reset Margins and Padding */
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
-/* Debuging */
-
-/*div {
-	border: blue solid 2px;
-}*/
-
-/* Universal Styling */
-
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: sans-serif;
 }
 
 img {
 	max-height: 550px;
 }
 
-h1 {
-	font-size: 3rem;
-}
-
-h2 {
-	font-size: 2.5rem;
-}
-
-p {
-	line-height: 1.5rem;
-	padding-top: 2.5rem;
-}
-
-/* Store Badges */
+/*div {
+	border: blue solid 2px;
+}*/
 
 #badges {
 	padding-top: 2rem;
@@ -47,13 +26,12 @@ p {
 	height: auto;
 }
 
-/* Scroll Buttons */
-
 button {
-	padding: 10px 20px 10px 20px;
+	padding: 10px 20px 30px 20px;
 	font-size: 16px;
 	margin-top: 2rem;
 	outline-style: none;
+	height: 2rem;
 	border: none;
 	border-radius: 30px;
 	background-color: #50c9ff;
@@ -62,7 +40,7 @@ button {
 
 button:hover {
 	background-color: #50c9ff;
-	padding: 10px 60px 10px 20px;
+	padding: 10px 60px 30px 20px;
 }
 
 button:active {
@@ -82,7 +60,18 @@ button:active {
 	color: white;
 }
 
-/* Landing Section */
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+p {
+	line-height: 1.5rem;
+	padding-top: 2.5rem;
+}
 
 #landing {
 	padding: 0;
@@ -97,8 +86,6 @@ button:active {
 #landing p {
 	padding-top: 1.5rem;
 } 
-
-/* Main Content Containers and Modifiers */
 
 .main-container {
 	background-color: #efefef;
@@ -138,8 +125,6 @@ button:active {
 	margin: 0 auto 0 2%;
 }
 
-/* Styles for Mobile Devices */
-
 @media only screen and (max-width: 600px) {
 
 	#landing {
@@ -167,8 +152,6 @@ button:active {
 		padding-top: 2rem;
 		max-width: 70%;
 	}
-
-	/* Removes Elements from Mobile */
 
 	.remove-on-mobile {
 		display: none;
